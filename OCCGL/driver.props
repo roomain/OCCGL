@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <GLAD_LIB>$(SolutionDir)../../Externals/GladLib/x64/Release</GLAD_LIB>
+    <GLAD_INC>$(SolutionDir)../../Externals/glad/include</GLAD_INC>
+    <FREETYPE_LIB>$(SolutionDir)../../Externals/freetype-2.10.0/build/Release</FREETYPE_LIB>
+    <FREETYPE_INC>$(SolutionDir)../../Externals/freetype-2.10.0/include</FREETYPE_INC>
+    <GLM_INC>$(solutionDir)../../Externals/glm-master</GLM_INC>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="GLAD_LIB">
+      <Value>$(GLAD_LIB)</Value>
+    </BuildMacro>
+    <BuildMacro Include="GLAD_INC">
+      <Value>$(GLAD_INC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="FREETYPE_LIB">
+      <Value>$(FREETYPE_LIB)</Value>
+    </BuildMacro>
+    <BuildMacro Include="FREETYPE_INC">
+      <Value>$(FREETYPE_INC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="GLM_INC">
+      <Value>$(GLM_INC)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OCCGL", "OCCGL.vcxproj", "{878BC8A1-5400-4791-9BFA-1194EB6D44C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{878BC8A1-5400-4791-9BFA-1194EB6D44C7}.Debug|x64.ActiveCfg = Debug|x64
+		{878BC8A1-5400-4791-9BFA-1194EB6D44C7}.Debug|x64.Build.0 = Debug|x64
+		{878BC8A1-5400-4791-9BFA-1194EB6D44C7}.Release|x64.ActiveCfg = Release|x64
+		{878BC8A1-5400-4791-9BFA-1194EB6D44C7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8842C3F-D6D0-4771-9C38-5028D1C29BF0}
+	EndGlobalSection
+EndGlobal
